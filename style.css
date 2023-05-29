@@ -251,6 +251,7 @@ body {
   position: absolute;
   right: 16px;
   top: 8px;
+  
 }
 
 .page1_photo {
@@ -273,7 +274,8 @@ body {
   border: 3px solid #ffffff;
   border-radius: 47px;
   top: 265px;
-  left: 97px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 /* page 2 */
