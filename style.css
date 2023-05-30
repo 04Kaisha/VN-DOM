@@ -78,6 +78,10 @@ body {
   height: 100%;
 }
 
+.header_menu {
+  padding-top: 4px;
+}
+
 .page1_padding {
   padding-top: 30px;
 }
@@ -732,9 +736,6 @@ body {
     display: none;
   }
 
-  .header_menu {
-    display: block;
-  }
 
   .menu {
     position: absolute;
@@ -745,6 +746,7 @@ body {
     display: flex;
     align-items: center;
     color: white;
+    padding-top: 15px;
   }
 
   .menu-list {
@@ -772,8 +774,8 @@ body {
   }
 
   .menu-child {
-    height: 50px;
-    width: 116px;
+    height: 40px;
+    width: 120px;
     border: 1px solid #fc531c;
     border-radius: 17px;
   }
