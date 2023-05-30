@@ -5,25 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "VinnytsiaSansBold";
-  src: url("fonts/VinnytsiaSansBold.eot");
-  src: url("fonts/VinnytsiaSansBold.eot") format("embedded-opentype"),
-    url("fonts/VinnytsiaSansBold.woff2") format("woff2"),
-    url("fonts/VinnytsiaSansBold.woff") format("woff"),
-    url("fonts/VinnytsiaSansBold.ttf") format("truetype"),
-    url("fonts/VinnytsiaSansBold.svg#VinnytsiaSansBold") format("svg");
-}
 
-@font-face {
-  font-family: "VinnytsiaSansReg";
-  src: url("fonts/VinnytsiaSansReg.eot");
-  src: url("fonts/VinnytsiaSansReg.eot") format("embedded-opentype"),
-    url("fonts/VinnytsiaSansReg.woff2") format("woff2"),
-    url("fonts/VinnytsiaSansReg.woff") format("woff"),
-    url("fonts/VinnytsiaSansReg.ttf") format("truetype"),
-    url("fonts/VinnytsiaSansReg.svg#VinnytsiaSansReg") format("svg");
-}
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 
 * {
   box-sizing: border-box;
@@ -42,13 +26,6 @@ body {
   position: relative;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 330px;
-  height: 100%;
-}
-
 /* global style  */
 
 .orange {
@@ -57,6 +34,35 @@ body {
 
 .orangebg {
   background: #fc531c;
+}
+
+.flex-center {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-height {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 330px;
+  height: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 330px;
+}
+
+/* section 1  */
+
+.page1 {
+  height: 100vh;
+  position: relative;
+  margin-bottom: 40px;
 }
 
 /* header  */
@@ -70,6 +76,53 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 100%;
+}
+
+.page1_padding {
+  padding-top: 30px;
+}
+
+.page1_nav {
+  display: none;
+}
+
+.page1_nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.page1_nav-list {
+  display: flex;
+}
+
+.page1_nav-list :not(:last-child) {
+  margin-right: 30px;
+}
+
+.header_button-contact {
+  display: none;
+  border-radius: 47px;
+  background-color: #fc531c;
+  padding: 10px 20px;
+  font-family: "Commissioner", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0.07em;
+  color: #ffffff;
+}
+
+.page1_nav-item {
+  font-family: "Commissioner", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+}
+
+.page1_nav-link {
 }
 
 .header_logo {
@@ -92,7 +145,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 20%;
+  height: 100%;
   display: flex;
   align-items: center;
   color: white;
@@ -113,7 +166,7 @@ body {
 }
 
 .menu-list a {
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   color: white;
   text-decoration: none;
   font-size: 13px;
@@ -147,7 +200,9 @@ body {
 }
 
 .house {
-    position: absolute;
+  position: absolute;
+  width: 44px;
+  height: 43px;
   top: 370px;
   left: 48%;
   transform: translate(-50%, -50%);
@@ -155,15 +210,6 @@ body {
 
 .is-active {
   transform: none;
-}
-
-/* section 1  */
-
-.page1 {
-  padding: 10px 0 180px 0;
-  background: url(/img/pagesline.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 .flex-column-center {
@@ -175,28 +221,40 @@ body {
 /* h1 */
 
 .page1_h1 {
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   font-style: normal;
-  font-size: 40px;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 41px;
   line-height: 100%;
   color: #ffffff;
   margin: 0 0 15px 0;
 }
 
 .page1_h1-build {
-  font-size: 38px;
+  font-size: 44px;
+}
+
+.page1_housesvg {
+  position: absolute;
+  right: 2px;
+  top: -4px;
+  width: 44px;
+  height: 43px;
+}
+
+.page1_blur {
+  position: absolute;
+  z-index: -1;
+  left: -30px;
+  top: -24px;
+  width: 210px;
+  height: 90px;
 }
 /* p */
 
 .page1_p {
-  background-image: url(/img/page1/copywrite.svg);
-  background-repeat: no-repeat;
-  padding-left: 16px;
-  font-family: "Ablation";
+  font-family: "ablationblack";
   font-weight: 900;
   font-size: 12px;
   line-height: 11px;
@@ -227,7 +285,7 @@ body {
 }
 
 .page1_adress {
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -237,8 +295,9 @@ body {
 }
 
 .page1_number {
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   font-style: normal;
+  font-weight: 700;
   font-size: 12px;
   line-height: 100%;
   color: white;
@@ -247,13 +306,15 @@ body {
 
 .page1_button {
   position: relative;
-  padding: 15px 97px 12px 92px;
+  padding: 15px 0 14px 0;
+  text-align: center;
   background: #fc531c;
+  width: 330px;
   border-radius: 47px;
 }
 
 .page1_button-text {
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -263,12 +324,18 @@ body {
 
 .page1_button-arrow {
   position: absolute;
-  right: 16px;
-  top: 8px;
+  right: 13px;
+  top: 9px;
+  width: 36px;
+}
+
+.page1_gallary {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .page1_photo {
-  position: relative;
   width: 330px;
   height: 300px;
   background-color: white;
@@ -278,19 +345,36 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  order: 2;
 }
 
-.page1_arrow-down {
-  position: absolute;
-  padding: 4px 37px;
-  background: #fc531c;
-  border: 3px solid #ffffff;
-  border-radius: 47px;
-  top: 265px;
-  left: 50%;
-  transform: translate(-50%);
+.page1_phototab1 {
+  order: 1;
+  display: none;
+  width: 330px;
+  height: 300px;
+  background-color: white;
+  border: 6px solid #ffffff;
+  border-radius: 31px;
+  background: url(/img/page4/child1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
+.page1_phototab2 {
+  display: none;
+  order: 3;
+  width: 330px;
+  height: 300px;
+  background-color: white;
+  border: 6px solid #ffffff;
+  border-radius: 31px;
+  background: url(/img/page4/child4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /* page 2 */
 .page2 {
   padding: 60px 0;
@@ -304,35 +388,26 @@ body {
 }
 .page2_h2 {
   color: white;
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   font-size: 37px;
   line-height: 100%;
+  margin-bottom: 15px;
 }
 
 .page2_p {
   color: rgba(255, 255, 255, 0.69);
   font-size: 14px;
   line-height: 124.5%;
-  font-family: "VinnytsiaSansReg";
+  font-family: "Commissioner", sans-serif;
   letter-spacing: 0.015em;
 }
 
-.page2_house {
-  position: absolute;
-  left: 220px;
-  top: 400px;
-}
-
-.page2_line {
+.page2_illustration {
   position: absolute;
   top: 400px;
-  left: 64px;
-}
-
-.page2_dot {
-  position: absolute;
-  top: 490px;
-  left: 47px;
+  left: 40px;
+  width: 252px;
+  height: 126px;
 }
 
 /* page 3 */
@@ -346,10 +421,14 @@ body {
 
 .page3_text {
   color: white;
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   font-size: 46px;
   line-height: 100%;
   margin-bottom: 10px;
+  max-width: 330px;
+  padding-right: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page3_list {
@@ -366,7 +445,7 @@ body {
   display: block;
   padding: 32px 0 29px 0;
   text-align: center;
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   color: white;
   font-size: 21px;
   line-height: 100%;
@@ -422,7 +501,7 @@ body {
 .page4_h2 {
   position: relative;
   color: white;
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   font-size: 46px;
   line-height: 100%;
   margin-bottom: 20px;
@@ -517,9 +596,9 @@ body {
   font-size: 46px;
   line-height: 100%;
   color: white;
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .page5_list :not(:last-child) {
@@ -533,7 +612,7 @@ body {
   padding-left: 22px;
   font-size: 22px;
   list-style: none;
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
 }
 .page5_child a {
   color: #fc531c;
@@ -541,7 +620,31 @@ body {
 
 /* footer  */
 
+.footer1_h1 {
+  position: relative;
+  font-family: "Commissioner", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 41px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0 0 15px 0;
+}
+
+.footer1_h1-build {
+  font-size: 44px;
+}
+
+.footer1_housesvg {
+  position: absolute;
+  right: 2px;
+  top: -4px;
+  width: 44px;
+  height: 43px;
+}
+
 .footer {
+  margin-top: 100px;
   height: 300px;
   background: #ffffff;
   border-radius: 52px 52px 0px 0px;
@@ -554,7 +657,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 204px;
-  padding: 70px 0 0 0;
+  padding: 60px 0 0 0;
   margin-bottom: 22px;
 }
 
@@ -562,7 +665,7 @@ body {
   color: white;
   font-size: 35px;
   line-height: 100%;
-  font-family: "VinnytsiaSansBold";
+  font-family: "Commissioner", sans-serif;
 }
 
 .footer_build {
@@ -576,10 +679,6 @@ body {
 }
 
 .footer_copywrite {
-  background-image: url(/img/page5/footer/copywrite.svg);
-  background-repeat: no-repeat;
-  background-position: left center;
-  padding-left: 16px;
   text-transform: uppercase;
   font-family: "Ablation";
   font-style: normal;
@@ -592,9 +691,588 @@ body {
 }
 
 .footer_madebyme {
-  font-family: "VinnytsiaSansReg";
+  font-family: "Commissioner", sans-serif;
   font-size: 13px;
   line-height: 11px;
   color: rgba(0, 0, 0, 0.38);
   border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+/* ////////////TABLET//////////////// */
+
+@media screen and (min-width: 654px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 654px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container-none {
+    max-width: 654px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container-height {
+    max-width: 654px;
+  }
+
+  /* header  */
+
+  .header {
+    height: 100px;
+    z-index: 0;
+  }
+
+  .flex-column-center .page1_nav {
+    display: none;
+  }
+
+  .header_menu {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .menu-list {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-width: 654px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .menu-list :not(:last-child) {
+    margin-right: 5px;
+  }
+
+  .menu-list a {
+    font-family: "Commissioner", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 0.15em;
+  }
+
+  .menu-child {
+    height: 50px;
+    width: 116px;
+    border: 1px solid #fc531c;
+    border-radius: 17px;
+  }
+
+  .header_button-contact {
+    display: none;
+  }
+
+  .menu-child a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .house {
+    display: none;
+  }
+
+  .is-active {
+    transform: none;
+  }
+
+  /* section 1  */
+  .page1 {
+    height: 100%;
+  }
+
+  .flex-column-center {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* h1 */
+
+  .page1_h1 {
+    position: relative;
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 83px;
+    line-height: 100%;
+    color: #ffffff;
+    margin: 0 0 30px 0;
+  }
+
+  .page1_h1-build {
+    font-size: 88px;
+  }
+
+  .page1_housesvg {
+    position: absolute;
+    right: 0px;
+    top: -4px;
+    width: 86px;
+    height: 84px;
+  }
+
+  .page1_blur {
+    position: absolute;
+    z-index: -1;
+    left: -45px;
+    top: -24px;
+    width: 400px;
+    height: 130px;
+  }
+  /* p */
+
+  .page1_p {
+    font-family: "ablationblack";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 11px;
+    letter-spacing: 0.15em;
+    color: #606060;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  /* adress-button  */
+
+  .page1_contacts-button {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .page1_contacts {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .page1_adress {
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.74);
+    text-decoration: none;
+  }
+
+  .page1_number {
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .page1_button {
+    position: relative;
+    text-align: center;
+    padding: 15px 137px 15px 120px;
+    background: #fc531c;
+    width: 465px;
+    border-radius: 47px;
+  }
+
+  .page1_button-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 100%;
+    color: white;
+  }
+
+  .page1_button-arrow {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    width: 44px;
+  }
+
+  .page1_gallary {
+    margin-bottom: 28px;
+  }
+
+  .page1_photo {
+    order: 1;
+  }
+
+  .page1_phototab1 {
+    display: block;
+  }
+
+  .page1_phototab2 {
+    display: block;
+  }
+
+  .page1_arrow-down {
+    display: none;
+  }
+
+  /* page 2 */
+  .page2 {
+    padding: 60px 0;
+  }
+
+  .page2_about-us {
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    padding: 50px 50px 250px 30px;
+    position: relative;
+  }
+  .page2_h2 {
+    color: white;
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 100%;
+    margin-bottom: 40px;
+    max-width: 300px;
+  }
+
+  .page2_p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 106%;
+    letter-spacing: 0.015em;
+
+    color: rgba(255, 255, 255, 0.69);
+  }
+
+  .page2_illustration {
+    top: 730px;
+    left: 40px;
+    width: 554px;
+    height: auto;
+  }
+
+  /* page 3 */
+
+  .page3 {
+    padding: 60px 0;
+  }
+
+  .page3_our-product {
+  }
+
+  .page3_text {
+    color: white;
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 100%;
+    margin-bottom: 60px;
+    padding-right: 250px;
+  }
+
+  .page3_list {
+    max-width: 654px;
+  }
+
+  .page3_list :not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .page3_child {
+    display: block;
+    padding: 51px 0 51px 0;
+    text-align: center;
+    font-family: "Commissioner", sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    max-width: 654px;
+    text-decoration: none;
+  }
+
+  .child1 {
+    background: url(/img/page3/child1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .child2 {
+    background: url(/img/page3/child2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .child3 {
+    background: url(/img/page3/child3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .child4 {
+    background: url(/img/page3/child4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .child5 {
+    background: url(/img/page3/child5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  /* page4  */
+
+  .page4 {
+    padding: 60px 0;
+  }
+
+  .page4_gallery {
+  }
+
+  .page4_h2 {
+    position: relative;
+    color: white;
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 100%;
+    margin-bottom: 20px;
+    max-width: 422px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page4_house {
+    position: absolute;
+    right: -5px;
+    top: -10px;
+  }
+
+  .page4_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 546px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page4_list :nth-last-child(-n + 4) {
+    margin-top: 16px;
+  }
+  .page4_child {
+    width: 265px;
+    height: 266px;
+    border-radius: 17px;
+  }
+
+  .page4_child1 {
+    background: url(/img/page4/child1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .page4_child2 {
+    background: url(/img/page4/child2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .page4_child2 {
+    background: url(/img/page4/child2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .page4_child3 {
+    background: url(/img/page4/child3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .page4_child4 {
+    background: url(/img/page4/child4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .page4_child5 {
+    background: url(/img/page4/child5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .page4_child6 {
+    background: url(/img/page4/child6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* page5  */
+
+  .page5 {
+    padding: 60px 0 0 0;
+  }
+
+  .page5_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page5_h2 {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 100%;
+    color: white;
+    font-family: "Commissioner", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  .page5_list :not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .page5_child {
+    background: url(/img/page5/tele.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 22px;
+    font-size: 22px;
+    list-style: none;
+    font-family: "Commissioner", sans-serif;
+  }
+  .page5_child a {
+    color: #fc531c;
+  }
+
+  /* footer  */
+
+  .footer {
+    margin-top: 100px;
+    height: 450px;
+    background: #ffffff;
+    border-radius: 62px 62px 0px 0px;
+    padding: 12px 12px;
+    max-width: 654px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer_top {
+    border-radius: 54px;
+    background: url(/img/page5/footer/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    padding: 80px 45px 0 45px;
+    margin-bottom: 32px;
+  }
+
+  .footer1_h1 {
+    position: relative;
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 69px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+
+  .footer1_h1-build {
+    font-size: 73px;
+  }
+
+  .footer1_housesvg {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 63px;
+    height: 64px;
+  }
+
+  .footer_text {
+    color: white;
+    font-size: 36px;
+    line-height: 100%;
+    font-family: "Commissioner", sans-serif;
+  }
+
+  .footer_build {
+    font-size: 38px;
+  }
+
+  .footer_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_copywrite {
+    text-transform: uppercase;
+    font-family: "Ablation";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #606060;
+    margin-bottom: 8px;
+  }
+
+  .footer_madebyme {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.38);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+  }
 }
