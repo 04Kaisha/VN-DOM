@@ -334,10 +334,6 @@ body {
   align-items: center;
 }
 
-.page1_gallary :not(:last-child) {
-  margin-right: 30px;
-}
-
 .page1_photo {
   width: 330px;
   height: 300px;
@@ -939,6 +935,10 @@ body {
 
   .page1_arrow-down {
     display: none;
+  }
+
+  .page1_gallary :not(:last-child) {
+    margin-right: 30px;
   }
 
   /* page 2 */
