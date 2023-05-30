@@ -332,7 +332,10 @@ body {
 .page1_gallary {
   display: flex;
   align-items: center;
-  gap: 30px;
+}
+
+.page1_gallary :not(:last-child) {
+  margin-right: 30px;
 }
 
 .page1_photo {
