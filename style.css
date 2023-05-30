@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 
 * {
@@ -108,7 +108,7 @@ body {
 }
 
 .page1_nav-item {
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -160,7 +160,7 @@ body {
 }
 
 .menu-list a {
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 13px;
@@ -217,7 +217,7 @@ body {
 
 .page1_h1 {
   position: relative;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 41px;
@@ -287,7 +287,7 @@ body {
 }
 
 .page1_adress {
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -297,7 +297,7 @@ body {
 }
 
 .page1_number {
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -316,7 +316,7 @@ body {
 }
 
 .page1_button-text {
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -391,7 +391,7 @@ body {
 }
 .page2_h2 {
   color: white;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-size: 37px;
   line-height: 100%;
   margin-bottom: 15px;
@@ -401,7 +401,7 @@ body {
   color: rgba(255, 255, 255, 0.69);
   font-size: 14px;
   line-height: 124.5%;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.015em;
 }
 
@@ -424,7 +424,7 @@ body {
 
 .page3_text {
   color: white;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-size: 46px;
   line-height: 100%;
   margin-bottom: 10px;
@@ -448,7 +448,7 @@ body {
   display: block;
   padding: 32px 0 29px 0;
   text-align: center;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 21px;
   line-height: 100%;
@@ -504,7 +504,7 @@ body {
 .page4_h2 {
   position: relative;
   color: white;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-size: 46px;
   line-height: 100%;
   margin-bottom: 20px;
@@ -599,7 +599,7 @@ body {
   font-size: 46px;
   line-height: 100%;
   color: white;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -615,7 +615,7 @@ body {
   padding-left: 22px;
   font-size: 22px;
   list-style: none;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 .page5_child a {
   color: #fc531c;
@@ -625,7 +625,7 @@ body {
 
 .footer1_h1 {
   position: relative;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 41px;
@@ -668,7 +668,7 @@ body {
   color: white;
   font-size: 35px;
   line-height: 100%;
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 .footer_build {
@@ -694,7 +694,7 @@ body {
 }
 
 .footer_madebyme {
-  font-family: "Commissioner", sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   line-height: 11px;
   color: rgba(0, 0, 0, 0.38);
@@ -756,7 +756,7 @@ body {
   }
 
   .menu-list a {
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     color: white;
     text-decoration: none;
     font-size: 13px;
@@ -796,7 +796,7 @@ body {
 
   .page1_h1 {
     position: relative;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 83px;
@@ -857,7 +857,7 @@ body {
   }
 
   .page1_adress {
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -867,7 +867,7 @@ body {
   }
 
   .page1_number {
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -929,7 +929,7 @@ body {
   }
   .page2_h2 {
     color: white;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 59px;
@@ -966,7 +966,7 @@ body {
 
   .page3_text {
     color: white;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 71px;
@@ -987,7 +987,7 @@ body {
     display: block;
     padding: 51px 0 51px 0;
     text-align: center;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     color: white;
     font-style: normal;
     font-weight: 700;
@@ -1009,7 +1009,7 @@ body {
   .page4_h2 {
     position: relative;
     color: white;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 71px;
@@ -1064,7 +1064,7 @@ body {
     font-size: 71px;
     line-height: 100%;
     color: white;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     margin-bottom: 40px;
   }
@@ -1080,7 +1080,7 @@ body {
     padding-left: 22px;
     font-size: 22px;
     list-style: none;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   }
   .page5_child a {
     color: #fc531c;
@@ -1111,7 +1111,7 @@ body {
 
   .footer1_h1 {
     position: relative;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 69px;
@@ -1135,7 +1135,7 @@ body {
     color: white;
     font-size: 36px;
     line-height: 100%;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   }
 
   .footer_build {
@@ -1218,7 +1218,7 @@ body {
   }
 
   .laptop_nav-child {
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     color: white;
     font-style: normal;
     font-weight: 500;
@@ -1264,7 +1264,7 @@ body {
   }
 
   .menu-list a {
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     color: white;
     text-decoration: none;
     font-size: 13px;
@@ -1285,7 +1285,7 @@ body {
     border: 1px solid #fc531c;
     background-color: #fc531c;
     padding: 14px 37px;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -1335,7 +1335,7 @@ body {
 
   .page1_h1 {
     position: relative;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 82px;
@@ -1352,7 +1352,7 @@ body {
 
   .footer1_h1 {
     position: relative;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 82px;
@@ -1413,7 +1413,7 @@ body {
   }
 
   .page1_adress {
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1423,7 +1423,7 @@ body {
   }
 
   .page1_number {
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1473,7 +1473,7 @@ body {
   }
   .page2_h2 {
     color: white;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 62px;
@@ -1510,7 +1510,7 @@ body {
 
   .page3_text {
     color: white;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 71px;
@@ -1532,7 +1532,7 @@ body {
     display: block;
     padding: 51px 0 51px 0;
     text-align: center;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     color: white;
     font-style: normal;
     font-weight: 700;
@@ -1553,7 +1553,7 @@ body {
   .page4_h2 {
     position: relative;
     color: white;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 71px;
@@ -1604,7 +1604,7 @@ body {
     font-size: 71px;
     line-height: 100%;
     color: white;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     margin-bottom: 40px;
   }
@@ -1620,7 +1620,7 @@ body {
     padding-left: 22px;
     font-size: 22px;
     list-style: none;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   }
   .page5_child a {
     color: #fc531c;
@@ -1651,7 +1651,7 @@ body {
 
   .footer1_h1 {
     position: relative;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 82px;
@@ -1676,7 +1676,7 @@ body {
     color: white;
     font-size: 36px;
     line-height: 100%;
-    font-family: "Commissioner", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   }
 
   .footer_build {
