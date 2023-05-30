@@ -1,7 +1,7 @@
 @font-face {
   font-family: "ablationblack";
-  src: url("ablation_black-webfont.woff2") format("woff2"),
-    url("ablation_black-webfont.woff") format("woff");
+  src: url("/fonts/ablation_black-webfont.woff2") format("woff2"),
+    url("/fonts/ablation_black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -1334,19 +1334,35 @@ body {
   }
 
   .page1_h1 {
-    max-width: 660px;
     position: relative;
     font-family: "Commissioner", sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 83px;
+    font-size: 82px;
     line-height: 100%;
     color: #ffffff;
-    margin: 0 0 30px 0;
+    max-width: 645px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .page1_h1-build {
-    font-size: 88px;
+    font-size: 86px;
+  }
+
+  .footer1_h1 {
+    position: relative;
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 100%;
+    color: #ffffff;
+    max-width: 735px;
+  }
+
+  .footer1_h1-build {
+    font-size: 86px;
   }
 
   .page1_housesvg {
@@ -1641,6 +1657,7 @@ body {
     font-size: 82px;
     line-height: 100%;
     color: #ffffff;
+    max-width: 735px;
   }
 
   .footer1_h1-build {
