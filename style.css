@@ -359,6 +359,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-right: 30px;
 }
 
 .page1_phototab2 {
@@ -373,6 +374,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-left: 30px;
 }
 /* page 2 */
 .page2 {
@@ -935,10 +937,6 @@ body {
 
   .page1_arrow-down {
     display: none;
-  }
-
-  .page1_gallary :not(:last-child) {
-    margin-right: 30px;
   }
 
   /* page 2 */
